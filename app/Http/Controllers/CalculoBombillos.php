@@ -16,7 +16,6 @@ class CalculoBombillos extends Controller
             ->with('matriz_original', $diagrama_original)
             ->with('matriz_optimizada', $diagrama_optimizado)
             ->with('total', $this->total_bombillos);
-        #echo json_encode($this->distribucionBombillos($matriz_original));
     }
 
     private function leerMatriz(){
